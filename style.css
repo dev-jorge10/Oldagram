@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDED;
+    margin-top: 63px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid #C6C6C6;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.header-logo {
+    width: 127px;
+}
+
+.header-avatar {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #C6C6C6;
+}
+
+.info {
+    padding: 3px 5px 0 5px;
+}
+
+.user-container {
+    width: 400px;
+    border: 2px solid #C6C6C6;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.user-full-name {
+    font-size: 13px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 17px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+}
+
+.user-img {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.body-container {
+    padding-left: 10px;
+    width: 105px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-imgs {
+    height: 25px;
+    width: 25px;
+}
+
+.likes {
+    padding: 10px 0 10px 17px;
+    font-size: 13px;
+}
+
+/* iPads (1024px and below) */
+@media (max-width: 1024px) {
+    .user-container {
+        width: 90%;
+    }
+    .header-logo {
+        width: 100px;
+    }
+    .header-avatar {
+        width: 35px;
+    }
+}
+
+/* Mobile devices (768px and below) */
+@media (max-width: 768px) {
+    .logo-container {
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+    .user-container {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .header-logo {
+        width: 90px;
+    }
+    .header-avatar {
+        width: 30px;
+    }
+    .user-img {
+        width: 30px;
+    }
+    .post-header {
+        padding: 8px 10px;
+    }
+    .body-container {
+        width: 80px;
+    }
+    .icon-imgs {
+        height: 20px;
+        width: 20px;
+    }
+    .likes {
+        font-size: 12px;
+    }
+    .user-full-name, .location {
+        font-size: 11px;
+    }
+}
+
+/* Smaller mobile devices (480px and below) */
+@media (max-width: 480px) {
+    .user-container {
+        width: 100%;
+        margin: 5px auto;
+    }
+    .header-logo {
+        width: 80px;
+    }
+    .header-avatar {
+        width: 25px;
+    }
+    .user-img {
+        width: 25px;
+    }
+    .icon-imgs {
+        height: 18px;
+        width: 18px;
+    }
+    .likes {
+        font-size: 11px;
+    }
+    .user-full-name, .location {
+        font-size: 10px;
+    }
+}
