@@ -2,12 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+
 }
 
 body {
     background-color: #EDEDED;
     margin-top: 63px;
 }
+
+
 
 .logo-container {
     display: flex;
@@ -43,10 +48,16 @@ body {
 
 .user-full-name {
     font-size: 13px;
+    font-weight: 900;
+}
+
+#user-name{
+    font-weight: 700;
 }
 
 .location {
     font-size: 12px;
+    font-weight: 400;
 }
 
 .post-header {
@@ -85,6 +96,12 @@ body {
 .likes {
     padding: 10px 0 10px 17px;
     font-size: 13px;
+    font-weight:
+    
+}
+
+#likes{
+    font-weight: 700;
 }
 
 /* iPads (1024px and below) */
